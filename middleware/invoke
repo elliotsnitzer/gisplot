@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -t gisplot2 \
+                         -C "start_jupyter -A -T @tool gisplot2_jupyter.ipynb" \
+                         -u anaconda-6 \
+                         -r none
